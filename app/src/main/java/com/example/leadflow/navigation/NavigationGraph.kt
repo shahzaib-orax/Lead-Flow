@@ -190,7 +190,7 @@ fun NavigationGraph(navController: NavHostController) {
                         contentAlignment = Alignment.Center
                     ) {
                         // White Card wapis lagaya taake UI clean lage
-                            Column(
+                        Column(
                                 modifier = Modifier.padding(24.dp),
                                 horizontalAlignment = Alignment.CenterHorizontally,
                                 verticalArrangement = Arrangement.Center
@@ -198,12 +198,10 @@ fun NavigationGraph(navController: NavHostController) {
                                 // Blue Rounded Indicator (Loader)
                                 CircularProgressIndicator(
                                     modifier = Modifier.size(60.dp),
-                                    color = Color(0xFF0095C8), // FIXED COLOR HEX
+//                                    color = Color(0xFF0095C8), // FIXED COLOR HEX
+                                    color = Color(0xFFEF0254), // FIXED COLOR HEX
                                     strokeWidth = 5.dp
                                 )
-
-
-
                             }
                         }
                     }
